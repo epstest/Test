@@ -19,9 +19,15 @@ public class JavaApplication3 {
         // TODO code application logic here
         BufferedReader input = new BufferedReader(new InputStreamReader(
                 System.in));
+        String eingabe;
+        int zahl;
+        eingabe = input.readLine();
+        zahl = Integer.parseInt(eingabe);
         for (int i = 1; i < 10; i++) {
             System.out.println("HELLO");
-            
+
+
+
         }
     }
 }
